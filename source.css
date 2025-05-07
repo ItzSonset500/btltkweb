@@ -1,0 +1,17 @@
+.navleft, .navright {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navleft a, .navright a {
+text-decoration: none;
+color: black;
+font-size: 14px;
+}
+.giaodien {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    border-bottom: 1px solid #ddd;
+}
